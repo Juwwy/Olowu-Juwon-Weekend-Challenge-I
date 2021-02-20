@@ -1,1 +1,249 @@
 /* Add CSS styling here */
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    margin: 0;
+    background-color: rgb(245, 245, 227);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.container{
+    width: 800px;
+    min-height: 700px;
+    background-color: #fff;
+    margin: auto;
+}
+
+.container header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    padding: 10px;
+    color: rgb(252, 182, 5);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.container nav{
+    height: 25px;
+    width: 100%;
+    padding: 10px;
+    
+
+}
+
+header ,nav{
+    background-color: rgb(27, 109, 129);
+    width: auto;
+    min-height: 100px;
+    padding: 0;
+    margin: 0;
+    
+    
+}
+.container nav ul{
+    margin:0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+    
+    
+}
+
+.container nav ul a{
+    text-decoration: none;
+    padding:10px;
+    display: block;
+    width: auto;
+    text-decoration: none;
+    color: black;
+    background-color: bisque;
+    
+
+}
+
+button{
+    width: 150px;
+    height:35px;
+    background-color:  rgb(27, 109, 129); 
+    border-radius: 3.5px;
+   
+}
+/* former code
+rgb(170, 35, 211);
+
+*/
+
+button a{
+    text-decoration: none;
+    /* color: rgb(32, 31, 25); */
+    color:cornsilk ;
+    box-shadow: 10%;
+    
+}
+
+/* button a:hover{
+    color:cornsilk;
+} */
+button:hover{
+    background-color: rgb(104, 45, 158);
+    color: cornsilk !important;
+    border: 2px gold solid;
+    transform: scale(1.2)
+}
+
+.container nav ul li a:hover{
+    background-color: rgb(104, 45, 158);
+    color: cornsilk;
+    border: 2px gold solid;
+}
+
+.container .main{
+    display: flex;
+    text-align: justify;
+    
+   
+}
+
+.container .main .box{
+    
+    width:500px;
+    height:300px;
+    overflow: hidden;
+    
+}
+
+.container .main .box img{
+    width:400px;
+    transition: transform 1s ease-in-out;
+}
+
+.container .main .box img:hover{
+    transform: scale(1.2);
+    
+}
+
+.container .main img{
+    width:500px;
+    height: 300px;
+    flex-basis: 50%;
+    border-radius:2px;
+   
+  
+}
+
+
+.container aside{
+    
+    flex-basis: 50%;
+    margin-right: 10px;
+    
+  
+    
+}
+
+/* .container.recent{
+    width:100%;
+    height: 300px;
+    position: relative;
+    bottom:500px;
+    flex-basis: 100%
+}
+
+.recent .project1 img{
+    width:100px;
+    height:100px;
+    padding:5px;
+    
+}
+
+.recent .project2 img{
+    width:100px;
+    height:100px;
+   
+} */
+
+.container .recent .project{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    padding-top:30px
+}
+
+.container .recent .project a{
+    text-decoration: none;
+    color:black;
+}
+
+.container .recent img{
+    width: 150px;
+    height: 150px;
+    
+}
+.container .recent img:hover{
+    background-color: rgb(104, 45, 158);
+    color: cornsilk;
+    border: 2px gold solid;
+    transform: scale(1.4);
+}
+
+footer{
+    background-color: rgb(46, 187, 156);
+    padding:20px;
+    text-align: center;
+    
+     
+
+}
+
+/* Contact Page CSS */
+
+.general .contact-general{
+    width:100px;
+    
+    padding: 2px;
+}
+
+ .contact-img{
+    height:10px;
+    width:10px;
+    display:flex;
+    justify-content: flex-start;
+    padding-bottom:300px;
+    padding-right:40px;
+    background-color:lavender;
+}
+
+
+/* About Page CSS */
+
+.container .about{
+    display: flex;
+    padding:15px;
+}
+
+.container .about aside {
+    
+}
+
+.container .about aside img{
+    width:200px;
+    height: 200px;
+    border-radius:10px;
+}
+
+.container .about aside img:hover{
+    background-color: rgb(104, 45, 158);
+    color: cornsilk;
+    border: 2px gold solid;
+    transform: scale(1.1);
+}
+
+
+
+/* Project Page CSS */
